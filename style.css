@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    background-color:aqua;
+    color: pink;
+}
+
+.bubble {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+#me {
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+#links {
+    display: flex;
+    gap: 2em;
+    justify-content: space-around;
+}
