@@ -1,7 +1,15 @@
 body {
     font-family: sans-serif;
     background-color:aqua;
+    margin: 2rem;
+    background-image: url('example.gif');
+}
+
+h1 {
+
     color: pink;
+    -webkit-text-stroke: .25em white;
+    paint-order: stroke fill;
 }
 
 .bubble {
