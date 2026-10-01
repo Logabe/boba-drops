@@ -2,14 +2,35 @@ body {
     font-family: sans-serif;
     background-color:aqua;
     margin: 2rem;
-    background-image: url('example.gif');
+    background-image: url('photos/example.gif');
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 h1 {
-
     color: pink;
     -webkit-text-stroke: .25em white;
     paint-order: stroke fill;
+}
+
+nav {
+    background-color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    height: min-content;
+
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+a {
+    color: rgb(1, 91, 170);
+    font-weight: bold;
 }
 
 .bubble {
@@ -21,7 +42,6 @@ h1 {
 }
 
 #me {
-    float: left;
     margin-right: 2rem;
     margin-bottom: 1.5rem;
 }
@@ -35,4 +55,8 @@ img {
     display: flex;
     gap: 2em;
     justify-content: space-around;
+}
+
+footer {
+    text-align: center;
 }
